@@ -1,10 +1,12 @@
 import React from 'react'
-import AutoComplete from './autoCompelete/AutoComplete'
+import AutoComplete from './inputs/AutoComplete'
+import ButtonExample from './inputs/ButtonExample'
 
 const App = () => {
   return (
     <>
-    <AutoComplete />
+    {/* <AutoComplete /> */}
+    <ButtonExample />
     </>
   )
 }
