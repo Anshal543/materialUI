@@ -5,6 +5,7 @@ import CheckBoxExample from './inputs/CheckBoxExample'
 import FloatingActionExample from './inputs/FloatingActionExample'
 import RadioExample from './inputs/RadioExample'
 import RatingExamples from './inputs/RatingExamples'
+import SelectExample from './inputs/SelectExample'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
     {/* <CheckBoxExample /> */}
     {/* <FloatingActionExample  /> */}
     {/* <RadioExample /> */}
-    <RatingExamples />
+    {/* <RatingExamples /> */}
+    <SelectExample />
     </>
   )
 }
