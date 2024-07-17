@@ -6,6 +6,7 @@ import FloatingActionExample from './inputs/FloatingActionExample'
 import RadioExample from './inputs/RadioExample'
 import RatingExamples from './inputs/RatingExamples'
 import SelectExample from './inputs/SelectExample'
+import SliderExample from './inputs/SliderExample'
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
     {/* <FloatingActionExample  /> */}
     {/* <RadioExample /> */}
     {/* <RatingExamples /> */}
-    <SelectExample />
+    {/* <SelectExample /> */}
+    <SliderExample />
     </>
   )
 }
