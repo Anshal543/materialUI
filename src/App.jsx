@@ -7,6 +7,7 @@ import RadioExample from './inputs/RadioExample'
 import RatingExamples from './inputs/RatingExamples'
 import SelectExample from './inputs/SelectExample'
 import SliderExample from './inputs/SliderExample'
+import SwitchExample from './inputs/SwitchExample'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
     {/* <RadioExample /> */}
     {/* <RatingExamples /> */}
     {/* <SelectExample /> */}
-    <SliderExample />
+    {/* <SliderExample /> */}
+    <SwitchExample />
     </>
   )
 }
