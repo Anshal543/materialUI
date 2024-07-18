@@ -8,6 +8,7 @@ import RatingExamples from './inputs/RatingExamples'
 import SelectExample from './inputs/SelectExample'
 import SliderExample from './inputs/SliderExample'
 import SwitchExample from './inputs/SwitchExample'
+import TextFieldExample from './inputs/TextFieldExample'
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
     {/* <RatingExamples /> */}
     {/* <SelectExample /> */}
     {/* <SliderExample /> */}
-    <SwitchExample />
+    {/* <SwitchExample /> */}
+    <TextFieldExample />
     </>
   )
 }
